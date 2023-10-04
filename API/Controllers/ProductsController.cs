@@ -13,7 +13,7 @@ namespace API.Controllers
 
     [ApiController]
     [Route("api/[controller]")]
-    public class ProductsController : Controller
+    public class ProductsController : BaseApiController
     {
 
         private readonly IGenericRepository<Product> _Product;
@@ -29,9 +29,9 @@ namespace API.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IReadOnlyList<ProductToReturnDto>>> GetProducts()
+        public async Task<ActionResult<IReadOnlyList<ProductToReturnDto>>> GetProducts(string? sort = null, int? brandId = null, int? typeId = null)
         {
-            var specs = new ProductsWithTypesAndBrandsSpecification();
+            var specs = new ProductsWithTypesAndBrandsSpecification(sort, brandId, typeId);
 
             var products = await _Product.ListAsync(specs);
 

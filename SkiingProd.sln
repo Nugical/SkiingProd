@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "Client", "Client\Client.esproj", "{D375CC24-88EF-4841-B233-280E6CBDCEF0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,12 @@ Global
 		{C8421DD7-8D4A-4EC6-93C2-B65A19944B12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8421DD7-8D4A-4EC6-93C2-B65A19944B12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8421DD7-8D4A-4EC6-93C2-B65A19944B12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D375CC24-88EF-4841-B233-280E6CBDCEF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D375CC24-88EF-4841-B233-280E6CBDCEF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D375CC24-88EF-4841-B233-280E6CBDCEF0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D375CC24-88EF-4841-B233-280E6CBDCEF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D375CC24-88EF-4841-B233-280E6CBDCEF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D375CC24-88EF-4841-B233-280E6CBDCEF0}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
